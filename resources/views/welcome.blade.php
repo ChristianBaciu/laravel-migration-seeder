@@ -3,3 +3,9 @@
 
 {{-- imposta il titolo della pagina ( @yield('title') ) --}}
 @section('title', 'Inizio pagina')
+
+@section('main')
+<main>
+    <h1>ciao Mondo</h1>
+</main>
+@endsection
